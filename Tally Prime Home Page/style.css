@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+body {
+    background-color: #def1fc;
+    height: 900px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    color: white;
+    background-color: #1e3232;
+}
+
+#titel {
+    padding-left: 20px;
+    height: 70px;
+    width: 120px;
+    font-weight: 550;
+    color: #7ab2cb;
+    font-size: 18px;
+    text-align: start;
+}
+
+#top {
+    padding-bottom: 8px;
+    height: 33px;
+    width: 450px;
+    font-weight: 550;
+    color: #7ab2cb;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    border-bottom: 3px solid #7ab2cb;
+}
+
+#under {
+    padding-top: 3px;
+    padding-right: 30px;
+    height: 33px;
+    width: 380px;
+    font-weight: 550;
+    position: absolute;
+    left: 150px;
+    top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#center {
+    margin-top: 40px;
+    height: 30px;
+    width: 110px;
+    background-color: #e2f1fc;
+    color: black;
+    font-size: 18px;
+    border-bottom: 4px solid #243c57;
+    position: absolute;
+    top: 0px;
+    left: 665px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    padding-right: 60px;
+    height: 35px;
+    width: 450px;
+    font-weight: 550;
+    position: absolute;
+    top: 42px;
+    right: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hader2 {
+    /* padding-right: 2px;  */
+    padding-left: 10px;
+    width: 88.1%;
+    height: 21px;
+    background-color: #88bee6;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comp {
+    width: 171px;
+    height: 990px;
+    background-color: transparent;
+    border-left: 1px solid rgb(92, 141, 160);
+    position: absolute;
+    right: 0px;
+    top: 75px;
+}
+
+#date {
+    margin-left: 2px;
+    padding-left: 2px;
+    height: 25px;
+    background-color: #ffffff;
+    border-top: 3px solid #91b0b7;
+    border-left: 3px solid #91b0b7;
+    border-bottom: 3px solid #abd3dc;
+    display: flex;
+    justify-content: space-between;
+}
+
+#company{
+    margin-left: 2px;
+    padding-left: 2px;
+    height: 25px;
+    background-color: #ffffff;
+    border-left: 3px solid #91b0b7;
+    border-bottom: 3px solid #91b0b7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 88.6%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    margin-left: 30px;
+    width: 51.1%;
+    height: 775px;
+    border-right: 2px solid #c5d8dc;
+}
+
+#div1 {
+    height: 33px;
+    width: 50%;
+    color: #569aa9;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 412px;
+}
+
+#div2 {
+    height: 33px;
+    width: 42%;
+    font-weight: 650;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div3 {
+    padding-left: 30px;
+    height: 17px;
+    width: 45.6%;
+    font-weight: 400;
+    color: #569aa9;
+    gap: 353px;
+    border-top: 2px solid #acd2d9;
+    border-bottom: 2px solid #acd2d9;
+    position: absolute;
+    left: 0;
+    top: 210px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#div4 {
+    height: 33px;
+    width: 42%;
+    font-weight: 650;
+    position: absolute;
+    left: 30px;
+    top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box2 {
+    height: 775px;
+    width: 46%;
+}
+.main {
+    margin: 130px;
+    /* margin-top: 170px; */
+    margin-bottom: 0px;
+    height: 530px;
+    width: 350px;
+    background-color: #e2f1fc;
+    border: 2px solid #adc7cd;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main span {
+    color: rgb(30, 87, 179);
+    font-weight: 600;
+}
+#head {
+    height: 25px;
+    width: 68.2%;
+    color: white;
+    font-weight: 450;
+    background-color: rgb(30, 87, 179);
+    position: absolute;
+    top: 0px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    padding-left: 110px;
+    padding-top: 2px;
+}
+
+
+
+#master {
+    padding-left: 110px;
+    height: 20px;
+    width: 68.5%;
+    color: #3294aa;
+    position: absolute;
+    top: 55px;
+}
+
+#create {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 93px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#alter {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 111px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#chart {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 129px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#trans {
+    padding-left: 110px;
+    height: 20px;
+    width: 68.5%;
+    color: #3294aa;
+    position: absolute;
+    top: 165px;
+}
+
+#voucher {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#book {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 218px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#util {
+    padding-left: 110px;
+    height: 20px;
+    width: 68.5%;
+    color: #3294aa;
+    position: absolute;
+    top: 250px;
+}
+
+#bank {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 280px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#report {
+    padding-left: 110px;
+    height: 20px;
+    width: 68.5%;
+    color: #3294aa;
+    position: absolute;
+    top: 310px;
+}
+
+#balance {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 340px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#profit {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 358px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#stock {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 376px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#ratio {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 394px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#display {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 432px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#dashboard {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 450px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#quit {
+    padding-left: 110px;
+    height: 18px;
+    width: 68.5%;
+    position: absolute;
+    top: 485px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.selected {
+    background-color: #fec530;
+}
+
+/* .selected {
+    background-color: #fec530; /* or any color you want for selected div 
+    color: white;
+} */

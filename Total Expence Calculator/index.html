@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Expense Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏠 Family Monthly Expense Calculator</h1>
+    <p>Calculate total expenses and divide fairly among family members.</p>
+    
+    <form id="expenseForm">
+      <label>Total Rent:</label>
+      <input type="number" id="rent" required />
+
+      <label>Grocery Expense:</label>
+      <input type="number" id="grocery" required />
+
+      <label>Electricity (Units) Used:</label>
+      <input type="number" id="electricityUnits" required />
+
+      <label>Electricity Unit Price:</label>
+      <input type="number" id="unitPrice" required />
+
+      <label>Water Bill:</label>
+      <input type="number" id="water" required />
+
+      <label>Mobile & Wifi Recharge:</label>
+      <input type="number" id="recharge" required />
+
+      <label>Other Expenses:</label>
+      <input type="number" id="other" required />
+
+      <label>Number of Family Members:</label>
+      <input type="number" id="members" required />
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
