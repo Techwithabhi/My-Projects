@@ -3,8 +3,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #1f1c2c, #928dab);
-    margin: 0;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +17,8 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(15px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
     padding: 40px 30px;
+    border-radius: 20px;
     width: 90%;
     max-width: 400px;
     text-align: center;
@@ -27,8 +27,8 @@ body {
   
   h1 {
     font-size: 2.2rem;
-    margin-bottom: 10px;
     letter-spacing: 1px;
+    margin-bottom: 10px;
   }
   
   p {
@@ -80,10 +80,10 @@ body {
     from {
       opacity: 0;
       transform: translateY(30px);
-    }
+     }
     to {
       opacity: 1;
       transform: translateY(0);
-    }
+     }
   }
   
