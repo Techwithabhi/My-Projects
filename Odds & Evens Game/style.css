@@ -1,14 +1,14 @@
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
     background: linear-gradient(135deg, #0cf63e, #fad0c4);
+    text-align: center;
     color: #333;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
 .container {
