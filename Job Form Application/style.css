@@ -11,8 +11,8 @@
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 20px;
+    align-items: center;
     backdrop-filter: brightness(0.8);
   }
 
