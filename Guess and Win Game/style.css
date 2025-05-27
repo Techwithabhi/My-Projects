@@ -9,7 +9,7 @@ body {
 /* Animated Background */
 body::before {
     content: "";
-    position: fixed;
+    position: fixed;kj
     top: 0;
     left: 0;
     width: 100%;
