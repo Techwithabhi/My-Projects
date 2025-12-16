@@ -35,22 +35,3 @@ grocery = int(input("Total Grocery Expence in a Month: "))
 
 Electricity = int(input("Total Electricity (unit) spend in a month : "))
 
-unit_price = int(input("Unit Price in Your Area: "))
-
-water = int(input("Total Spending for Water supply : "))
-
-reacharge = int(input("Mobile & wifi Reacharge Bill : "))
-
-other = int(input("Other Expences : "))
-
-total_electricity_bill = Electricity * unit_price
-
-total_expence = (rent + grocery + total_electricity_bill + water + reacharge + other)
-
-print(f"Your Family's Total Expence in a Month is {total_expence} Rs.")
-
-members = int(input("How many family members are you live with : "))
-
-output = (total_expence // members)
-
-print(f"Every Person Should Contribute Approx {output} Rs. Equally for Monthly Expence")
