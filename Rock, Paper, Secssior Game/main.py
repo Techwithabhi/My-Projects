@@ -35,4 +35,3 @@ else:
     elif(system == 3 and you == 2):
         print("You Lose! Computer is the Winner🏅")
 
-
